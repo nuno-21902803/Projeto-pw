@@ -1,0 +1,97 @@
+/* FORMATACAO */
+* {
+  box-sizing: border-box;
+}
+
+body{
+    
+  font-family: 'Akaya Telivigala';font-size: 17px;
+  background-image:url(file:///C:/Users/nunof/Desktop/uni/2%C2%BAAno/2%C2%BASemestre/PROGRAMA_WEB/Projeto-pw/images/background-site-pic.png);
+}
+
+
+header {
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+
+
+nav {
+  font-size: 30px;
+  padding: 5px;
+}
+
+main{
+  padding: 10px;
+  /*font-size: 15px;*/
+  color: rgb(0, 0, 0);
+}
+
+
+
+footer {
+  position:absolute;
+  bottom: 70px;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  
+  padding: 5px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+
+aside{
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color:rgb(86, 86, 172);
+}
+
+
+
+.flexbox {
+    display: flex;
+    height: 220px;
+    justify-content:left;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.flexbox > div {
+    
+  margin: 10px;
+  padding: 10px;
+}
+
+/*
+@keyframes animation {
+    from {background-color: red;}
+    to {background-color: rgb(6, 65, 155);}
+  }
+
+
+*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+#titulo_site{
+  text-align: center;
+  font-size: 60px;
+}
+
+#intro{
+    font-size: 25px;
+}
+
+
+a:visited{color: rgb(19, 19, 161)}
+a:hover{color: yellow}
+a:active{color: red}
+
