@@ -29,7 +29,9 @@ main{
   color: rgb(0, 0, 0);
 }
 
-
+#tabela{
+  color: white;
+}
 
 footer {
   position:relative;
@@ -51,8 +53,6 @@ aside{
   font-style: italic;
   background-color:rgb(86, 86, 172);
 }
-
-
 
 .flexbox {
     display: flex;
