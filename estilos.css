@@ -83,8 +83,8 @@ aside{
 
 
 #menuSticky {
-  
-  position: -webkit-sticky; 
+  text-align: center;
+  position:-webkit-sticky; 
   position: sticky;
   top: 0;
 }
